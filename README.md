@@ -14,6 +14,8 @@ I did this for fun so it's not well written at all. If I ever want to attach my 
 
 Download [this file](https://github.com/iloveezi/unrivaled-data/blob/main/output/aggregated_player_stats/aggregated_player_stats.csv) and open it in Excel or Google Sheets. Freeze the first row and column.
 
+I also realized while making this that a lot of it exists here: https://unrivaled.acrossthetimeline.com/ but this project can be changed/added to and the data is raw so I'm still publishing it.
+
 ## Usage Guide
 
 All commands are for MacOS or Linux.
