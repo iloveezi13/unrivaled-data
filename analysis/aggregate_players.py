@@ -20,7 +20,7 @@ if __name__ == "__main__":
           with open(os.path.join(players_directory, filename), 'r') as csvfile:
               reader = csv.reader(csvfile, delimiter=',')
               header = next(reader)
-              player_name = filename.strip(".csv").replace("_", " ")
+              player_name = filename[:-4].replace("_", " ")
               player_stats = next(reader)
               player_stats = [player_name] + player_stats
         stats.append(player_stats)
